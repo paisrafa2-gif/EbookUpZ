@@ -964,7 +964,14 @@
 
   <div class="sticky-cta">
     <div class="price-new">20€</div>
-    <a href="https://payhip.com/buy?link=aoP90" class="cta-btn" target="_blank" rel="noopener">Comprar <span class="paypal-badge">PayPal</span></a>
+    <a href="https://payhip.com/buy?link=a0P90"
+   class="cta-btn"
+   onclick="window.goatcounter && goatcounter.count({
+      path: '/buy-click',
+      title: 'Buy Button Click'
+   });"
+   target="_blank"
+   rel="noopener">Comprar <span class="paypal-badge">PayPal</span></a>
   </div>
 
 <script>
